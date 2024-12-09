@@ -1,5 +1,5 @@
 <h1>Desafío 3: Acceso a una base de datos con Node y el paquete pg (Parte I)</h1>
-<p>Módulo 6: Backend con Node y Express (68) > Desafío - Like Me (Parte I)<br></p>
+<p>Módulo 6: Backend con Node y Express (68) > Desafío - Like Me (Parte I)<br></p><br>
 
 <h2>Instrucciones para el usuario</h2>
 
@@ -22,9 +22,9 @@
   <li><p>npm i</p></li>
   <li><p>npm run dev</p></li>
 </ul>
-<p>Finalmente, mantener presionada la tecla ctrl y clickear sobre el link localhost generado.<br></p>
+<p>Finalmente, mantener presionada la tecla ctrl y clickear sobre el link localhost generado.<br></p><br>
 
-<h2>Importante</h2>
+<h2>⚠️ Importante ⚠️</h2>
 <ul>
   
   <li><p>Se debe contar con una base de datos en PostgreSQL llamada "likeme":<br><br> 
@@ -41,8 +41,8 @@
 );	 
 </p></li>
 
-<li><p>En el archivo "index.js" de la subcarpeta "backend", se han de modificar las lineas 10 y 11, completando respectivamente con el usuario y password de PostgreSQL, dentro de las comillas simples.<br></p></li>  
-</ul>
+<li><p>En el archivo "index.js" de la subcarpeta "backend", se deben modificar las lineas 10 y 11, completando respectivamente con el usuario y password de PostgreSQL, dentro de las comillas simples.<br></p></li>  
+</ul><br>
 
 <h2>Cómo usar la aplicación</h2>
 <p>Considerar que solo funcionará habiendo completado los pasos de los items anteriores:</p>
@@ -51,8 +51,8 @@
 <ul>
   <li><p>Se tiene una interfaz para hacer un post escribiendo sobre los campos de "Título" (1), "URL de la iamgen" (2) y "Descripción" (3)</p></li>
   <li><p>El usuario puede postear una imagen, pegando su URL en el segundo campo. A ella puede agregar un título y una descripción. Para culminar, debe presionar el botón "Agregar"</p></li>
-  <li><p>Si el post fue agregado exitosamente, será visible en la propia interfaz, con (en orden descendente) la imagen, el título, y la descripción.<br></p></li>
-</ul>
+  <li><p>✅ Si el post fue agregado exitosamente, será visible en la propia interfaz, con (en orden descendente) la imagen, el título, y la descripción.<br></p></li>
+</ul><br>
 
 <h3>En VSCode mediante la extensión Thunder Client</h3>
 <ul>
@@ -64,7 +64,7 @@
 <ul>
   <li><p>Predisponer GET en el desplegable</p></li>
   <li><p>Presionar Send</p></li>
-  <li><p>Si todo está en orden, en el response se debiesen ver los arreglos con sus objetos id, titulo, img, descripcion, y likes. Todo esto procedente de la database likeme (si no hay post, un arreglo vacío)</p></li>
+  <li><p>✅ Si todo está en orden, en el response se debiesen ver los arreglos con sus objetos id, titulo, img, descripcion, y likes. Todo esto procedente de la database likeme (si no hay post, un arreglo vacío)</p></li>
 </ul>
 
 <h3>Ruta POST</h3>
@@ -78,7 +78,7 @@
 }<br><br>
 </p></li>
   <li><p>Presionar Send</p></li>
-  <li><p>Si todo está en orden, en el response se debiese ver el arreglo recientemente ingresado con sus obejos id, titulo, img, descripcion, y likes.</p></li>
+  <li><p>✅ Si todo está en orden, en el response se debiese ver el arreglo recientemente ingresado con sus obejos id, titulo, img, descripcion, y likes.</p></li>
 </ul>
 
 <h2><br>Créditos</h2>
