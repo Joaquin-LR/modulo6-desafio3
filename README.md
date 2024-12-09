@@ -60,14 +60,14 @@
   <li><p>En la barra mostrada, escribir localhost:3000/posts</p></li>
 </ul>
 
-<h3>Ruta GET</h3>
+<h4>Ruta GET</h4>
 <ul>
   <li><p>Predisponer GET en el desplegable</p></li>
   <li><p>Presionar Send</p></li>
   <li><p>✅ Si todo está en orden, en el response se debiesen ver los arreglos con sus objetos id, titulo, img, descripcion, y likes. Todo esto procedente de la database likeme (si no hay post, un arreglo vacío)</p></li>
 </ul>
 
-<h3>Ruta POST</h3>
+<h4>Ruta POST</h4>
 <ul>
   <li><p>Predisponer POST en el desplegable</p></li>
   <li><p>Presionar Body y escribir lo siguiente, reemplazando en la estructura:<br><br>
