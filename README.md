@@ -1,5 +1,5 @@
 <h1>Desafío 3: Acceso a una base de datos con Node y el paquete pg (Parte I)</h1>
-<p>Módulo 6: Backend con Node y Express (68) > Desafío - Like Me (Parte I)</p>
+<p>Módulo 6: Backend con Node y Express (68) > Desafío - Like Me (Parte I)<br></p>
 
 <h2>Instrucciones para el usuario</h2>
 
@@ -22,7 +22,7 @@
   <li><p>npm i</p></li>
   <li><p>npm run dev</p></li>
 </ul>
-<p>Finalmente, mantener presionada la tecla ctrl y clickear sobre el link localhost generado.</p>
+<p>Finalmente, mantener presionada la tecla ctrl y clickear sobre el link localhost generado.<br></p>
 
 <h2>Importante</h2>
 <ul>
@@ -41,7 +41,7 @@
 );	 
 </p></li>
 
-<li><p>En el archivo "index.js" de la subcarpeta "backend", se han de modificar las lineas 10 y 11, completando respectivamente con el usuario y password de PostgreSQL, dentro de las comillas simples.</p></li>  
+<li><p>En el archivo "index.js" de la subcarpeta "backend", se han de modificar las lineas 10 y 11, completando respectivamente con el usuario y password de PostgreSQL, dentro de las comillas simples.<br></p></li>  
 </ul>
 
 <h2>Cómo usar la aplicación</h2>
@@ -51,10 +51,10 @@
 <ul>
   <li><p>Se tiene una interfaz para hacer un post escribiendo sobre los campos de "Título" (1), "URL de la iamgen" (2) y "Descripción" (3)</p></li>
   <li><p>El usuario puede postear una imagen, pegando su URL en el segundo campo. A ella puede agregar un título y una descripción. Para culminar, debe presionar el botón "Agregar"</p></li>
-  <li><p>Si el post fue agregado exitosamente, será visible en la propia interfaz, con (en orden descendente) la imagen, el título, y la descripción.</p></li>
+  <li><p>Si el post fue agregado exitosamente, será visible en la propia interfaz, con (en orden descendente) la imagen, el título, y la descripción.<br></p></li>
 </ul>
 
-<h3>En VSCode mediante la extensión Thunder Cliente</h3>
+<h3>En VSCode mediante la extensión Thunder Client</h3>
 <ul>
   <li><p>Presionar botón New Request</p></li>
   <li><p>En la barra mostrada, escribir localhost:3000/posts</p></li>
