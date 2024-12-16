@@ -6,7 +6,7 @@
 <ol>
   <li><p>Descargar el archivo presionando en el botón verde que dice Code, y luego en Download ZIP</p></li>
   <li><p>Descomprimir modulo6-desafio3-main.zip en un directorio deseado</p></li>
-  <li><p>Abrir la carpeta modulo6-desafio2-main en Visual Studio Code</p></li>
+  <li><p>Abrir la carpeta modulo6-desafio3-main en Visual Studio Code</p></li>
   <li><p>Abrir 2 terminales e ir ejecutando, mediante la tecla Enter, lo siguiente:</p></li>
 </ol>
 
@@ -78,7 +78,7 @@
 }<br><br>
 </p></li>
   <li><p>Presionar Send</p></li>
-  <li><p>✅ Si todo está en orden, en el response se debiese ver el arreglo recientemente ingresado con sus obejos id, titulo, img, descripcion, y likes.</p></li>
+  <li><p>✅ Si todo está correcto, en el response se debiese ver el objeto recientemente ingresado con sus pares clave-valor id, titulo, img, descripcion, y likes.</p></li>
 </ul>
 
 <h2><br>Créditos</h2>
